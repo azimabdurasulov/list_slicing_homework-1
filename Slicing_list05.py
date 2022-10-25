@@ -8,4 +8,6 @@ def main(list1,n,k):
     Returns:
         list: return answer.
     """
-    return
+    return list1[ n:k + 1 ]
+
+print(main(['s', 'e', 's', 3, 4, 11, 8, 9], 2, 6))
