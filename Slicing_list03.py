@@ -6,6 +6,6 @@ def main(list1):
     Returns:
         list: return answer.
     """
-    return list1 * 2
+    return list1 + list1[: : -1]
 
 print(main(['a', 'ss', 'd', 'p']))
